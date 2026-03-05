@@ -7,6 +7,7 @@ warnings.filterwarnings("ignore")
 model = joblib.load("best_model.pkl") 
 
 st.title("Student Exam Score Predictor") 
+
 st.write("This project utilizes a Linear Regression Model trained on a "
 "synthetic dataset of 5,000 records to predict exam scores based "
 "on lifestyle factors like study habits, sleep patterns, "
