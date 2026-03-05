@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np 
-import joblib 
 import warnings
 warnings.filterwarnings("ignore")
 
